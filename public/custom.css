@@ -1,0 +1,34 @@
+input, button {
+    margin: 10px 0 10px 10px;
+}
+
+.message{
+    border-left: .5rem solid #3cf;
+    background-color: #e0f7ff;
+    padding: 1em;
+    max-width: 70%;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+}
+
+.details{
+    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+.details-active{
+    display: block;
+    opacity: 1;
+}
+
+small{
+    padding-top: 1em;
+    display: block;
+    text-align: right; 
+    cursor: pointer;
+}
+
+small:hover{
+    color:pink
+}
