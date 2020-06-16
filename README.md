@@ -17,12 +17,14 @@ This project uses [Feathers](http://feathersjs.com) and [Plivo](http://plivo.com
     cd path/to/feathers-sms
     npm install
     ```
-3. Setting id and secret keys can be done in the `/src/messages/messages.class.js` file directly by replacing the three values shown below.
+3. Setting id and secret keys can be done in the `/src/messages/messages.class.js` file directly by replacing the three values shown below. 
 
     ````js
     let client = new plivo.Client(process.env.PLIVO_ID, process.env.PLIVO_SECRET);
     let plivoNumber = process.env.PLIVO_NUM;
     ````
+Exporting the values before starting the app is also an option:
+`export PLIVO_ID=xxxxxxxxxx`
 
 4. Start the app
 
