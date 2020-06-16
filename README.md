@@ -4,10 +4,9 @@
 
 ## About
 
-This project uses [Feathers](http://feathersjs.com) and [Plivo](http://plivo.com). Feathers is an open source web framework for building modern real-time applications. Plivo is a voice and messaging platform enables businesses to create and deliver better customer experiences.
+This project uses [Feathers](http://feathersjs.com) and [Plivo](http://plivo.com). Feathers is an open source web framework for building modern real-time applications. Plivo is a voice and messaging platform that enables businesses to create and deliver better customer experiences.
 
 ## Getting Started
-
 
 
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
@@ -17,6 +16,8 @@ This project uses [Feathers](http://feathersjs.com) and [Plivo](http://plivo.com
     cd path/to/feathers-sms
     npm install
     ```
+
+    
 3. Setting id and secret keys can be done in the `/src/messages/messages.class.js` file directly by replacing the three values shown below. 
 
     ````js
