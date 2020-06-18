@@ -24,13 +24,7 @@ exports.Messages = class Messages extends Service {
           return super.create(messageData, params);
 
 
-        // //This is the information we want from the user sign up data
-        // const {email, password, githubId, name} = data;
-        // const avatar = data.avatar || getGravatar(email);
-        // // The user obj
-        // const userData = {email, password, githubId, name, avatar};
-    
-        // return super.create(userData, params);
+      
       }
   
 };
